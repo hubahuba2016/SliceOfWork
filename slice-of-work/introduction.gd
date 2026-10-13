@@ -49,6 +49,7 @@ func next_dialogue() -> void:
 
 func finish_introduction() -> void:
 	introduction_finished = true
+	get_tree().change_scene_to_file("res://work_introduction.tscn")
 	dialogue_label.text = "End of introduction."
 	print("SliceOfWork: Introduction finished!")
 	
