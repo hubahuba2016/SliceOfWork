@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://b4uvqrhn04514"]
+
+[ext_resource type="Script" uid="uid://bi8r0fnia8nec" path="res://Scripts/bedroom_scene.gd" id="1_tx0nh"]
+[ext_resource type="Texture2D" uid="uid://d1q68qg3gryuj" path="res://Pictures/Gemini_Generated_Image_bqhnsdbqhnsdbqhn.jpeg" id="2_a3ukw"]
+
+[node name="BedroomScene" type="Control" unique_id=319731769]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tx0nh")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1699457037]
+layout_mode = 0
+offset_right = 11559.999
+offset_bottom = 6579.9995
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_a3ukw")
+
+[node name="SpeakerLabel" type="Label" parent="." unique_id=1700817674]
+layout_mode = 0
+offset_top = 500.0
+offset_right = 40.0
+offset_bottom = 523.0
+
+[node name="DialogueLabel" type="Label" parent="." unique_id=1482386533]
+layout_mode = 0
+offset_top = 600.0
+offset_right = 40.0
+offset_bottom = 623.0

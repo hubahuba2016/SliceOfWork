@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://crhha43biu74h"]
+
+[ext_resource type="Script" uid="uid://cxbqbxg7hb1f5" path="res://Scripts/workspace.gd" id="1_2o5ek"]
+[ext_resource type="Texture2D" uid="uid://bxqelk0cawrsl" path="res://Pictures/Gemini_Generated_Image_wtokakwtokakwtok.jpeg" id="2_qy4cq"]
+
+[node name="Workspace" type="Control" unique_id=1696293281]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_2o5ek")
+
+[node name="Background" type="TextureRect" parent="." unique_id=81443202]
+layout_mode = 0
+offset_right = 11549.999
+offset_bottom = 6589.9995
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_qy4cq")
+
+[node name="UI" type="VBoxContainer" parent="." unique_id=428287819]
+layout_mode = 0
+offset_top = 200.0
+offset_right = 40.0
+offset_bottom = 331.0
+
+[node name="ClockLabel" type="Label" parent="UI" unique_id=1492175109]
+layout_mode = 2
+
+[node name="MoneyLabel" type="Label" parent="UI" unique_id=953456417]
+layout_mode = 2
+
+[node name="HungerLabel" type="Label" parent="UI" unique_id=1750902391]
+layout_mode = 2
+
+[node name="StaminaLabel" type="Label" parent="UI" unique_id=1269728084]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="UI" unique_id=1893547330]
+layout_mode = 2
+
+[node name="Actions" type="HBoxContainer" parent="." unique_id=2087741484]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="WorkButton" type="Button" parent="Actions" unique_id=462062093]
+layout_mode = 2
+
+[node name="BuyFoodButton" type="Button" parent="Actions" unique_id=1977406488]
+layout_mode = 2
+
+[node name="TakeNapButton" type="Button" parent="Actions" unique_id=185436680]
+layout_mode = 2
+
+[node name="DialogueLabel" type="Label" parent="." unique_id=1586882743]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

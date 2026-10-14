@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dbs6k28esjvja"]
+
+[ext_resource type="Script" uid="uid://bffbir1vjp5cu" path="res://Scripts/successful_ending.gd" id="1_f4v44"]
+[ext_resource type="Texture2D" uid="uid://bbefc8hnijrxq" path="res://Pictures/Gemini_Generated_Image_7ksrl17ksrl17ksr.jpeg" id="2_s66oo"]
+
+[node name="SuccessfulEnding" type="Control" unique_id=1844063330]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f4v44")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1893888419]
+layout_mode = 0
+offset_right = 11469.999
+offset_bottom = 6549.9995
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_s66oo")
+
+[node name="UI" type="VBoxContainer" parent="." unique_id=1668855599]
+layout_mode = 0
+offset_top = 500.0
+offset_right = 40.0
+offset_bottom = 562.0
+
+[node name="SpeakerLabel" type="Label" parent="UI" unique_id=168368067]
+layout_mode = 2
+
+[node name="DialogueLabel" type="Label" parent="UI" unique_id=1803723647]
+layout_mode = 2
